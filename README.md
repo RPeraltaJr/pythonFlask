@@ -1,23 +1,43 @@
-# Python Flask From Scratch
+# Python Flask
 
-#### Setup Flask [http://flask.pocoo.org/]
-`pip install flask`
+## Installation
 
-#### Run server
-`python app.py`
+1. Install [Flask](https://palletsprojects.com/p/flask/).  
 
-### Setup a MySQL Database in PHPMyAdmin
-`pip install flask-mysqldb`
+```sh
+  pip install flask
+  ```
 
-- Solution if `pip install flask-mysqldb` does not download properly
-`brew install mysql`  
-`brew install mysql-client`  
-`echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.bash_profile`   
-`source ~/.bash_profile`  
-`pip install mysqlclient`  
+2. Run server. 
 
-### Install Form
-`pip install Flask-WTF`
+```sh
+python app.py
+```
 
-### Hash library
-`pip install passlib`
+3. Set up a MySQL Database in PHPMyAdmin.  
+
+```sh
+pip install flask-mysqldb
+```
+
+If **flask-mysqldb** does not download properly. Try the following:
+
+```sh
+brew install mysql  
+brew install mysql-client  
+echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.bash_profile  
+source ~/.bash_profile  
+pip install mysqlclient
+```
+
+4. Install Form  
+
+```sh
+pip install Flask-WTF
+```
+
+5. Hash library 
+
+```sh
+pip install passlib
+```
